@@ -1,12 +1,12 @@
 {
   "name": "@lerna/package2",
   "version": "1.0.3",
-  "description": "",
+  "description": "test",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "zy",
   "license": "MIT",
-  "gitHead": "f2110f68516b70c7e6c18f1b40002c59bea3ac19"
+  "gitHead": "32855a16b6477e18c48f7ad843fca0dab5d74a1f"
 }
