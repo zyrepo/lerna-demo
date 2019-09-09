@@ -1,5 +1,5 @@
 {
-  "name": "@lerna-test/package2",
+  "name": "lerna-test-package2",
   "version": "1.1.5",
   "description": "test",
   "main": "index.js",
@@ -11,5 +11,5 @@
     "access": "public"
   },
   "license": "MIT",
-  "gitHead": "05e79d539cd0f4ff818b4f66fb0271b745301040"
+  "gitHead": "3a93b5e743513bf92a3096e038bf81ee2b8e4ce8"
 }
