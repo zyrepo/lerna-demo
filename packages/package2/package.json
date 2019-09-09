@@ -7,6 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "zy",
+  "publishConfig": {
+    "access": "public"
+  },
   "license": "MIT",
-  "gitHead": "32855a16b6477e18c48f7ad843fca0dab5d74a1f"
+  "gitHead": "f1a63c87c7f6aa24bbff96cf0499bda7d104de4f"
 }
