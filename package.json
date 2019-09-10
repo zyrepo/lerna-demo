@@ -4,5 +4,13 @@
   "private": true,
   "devDependencies": {
     "lerna": "^3.16.4"
-  }
+  },
+  "scripts": {
+    "start": "yarn workspace docs dev",
+    "build": "yarn workspace docs build"
+  },
+  "workspaces": [
+    "packages/*",
+    "docs"
+  ]
 }

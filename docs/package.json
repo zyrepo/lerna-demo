@@ -1,15 +1,25 @@
 {
   "name": "docs",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "@xiaoyuzhou/package1": "^1.0.9",
-    "@xiaoyuzhou/package2": "^1.1.7"
+    "@zeit/next-stylus": "^0.1.1-canary.4",
+    "next": "9.0.5",
+    "react": "16.9.0",
+    "react-dom": "16.9.0",
+    "stylus": "^0.54.7"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.6.1",
+    "css-loader": "^3.2.0",
+    "postcss-loader": "^3.0.0",
+    "poststylus": "^1.0.0",
+    "style-loader": "^1.0.0",
+    "stylus-loader": "^3.0.2"
   }
 }
