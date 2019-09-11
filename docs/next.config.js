@@ -4,11 +4,12 @@ const poststylus = require('poststylus')
 const autoprefixer = require('autoprefixer')
 
 module.exports = withStylus({
-    /* config options here */
+	/* config options here */
+	cssModules: true,
     cssLoaderOptions: {
-        modules: "global",
+		modules: "global",
         localIdentName: "[local]___[hash:base64:5]",
-        importLoaders: 1
+        importLoaders: 2
     },
     stylusLoaderOptions: {
         use: [
